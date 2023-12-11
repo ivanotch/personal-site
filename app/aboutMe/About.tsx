@@ -10,7 +10,7 @@ const About = () => {
           <img src='pictureSelf.png' className='object-scale-down absolute top-[-2rem]' alt="self photo" />
         </div>
         <div className='flex flex-col self-center text-left'>
-          <div className='font-main text-5xl' >About Me</div>
+          <div className='font-main text-5xl text-[#6F5643]' >About Me</div>
           <p className='text-lg'>
             Hi, I am Ivan Babida and i have been in Web development since 2022. 
             I'm passionate in creating and designing websites with the latest technologies  
@@ -33,7 +33,7 @@ const About = () => {
         </div>
       </div>
       <div>
-        <div className='font-main text-5xl text-center relative top-[3rem]'>Skills</div>
+        <div className='font-main text-5xl text-center relative top-[3rem] text-[#6F5643]'>Skills</div>
         <Tech />
       </div>
 

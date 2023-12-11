@@ -7,9 +7,9 @@ const Description = (schoolName: String | object | null) => {
   return (
     <div>
         <div className='flex flex-col'>
-            <span>{name}</span>
-            <span>{date}</span>
-            <span>{course}</span>
+            <span className='font-main text-[1.5em] text-accent'>{name}</span>
+            <span className='font-sub mt-[-0.6rem] mb-[0.3rem] font-[900] text-slate-800'>{date}</span>
+            <span className='font-main text-[1.1em]'>{course}</span>
             <span>{description}</span>
         </div>
 

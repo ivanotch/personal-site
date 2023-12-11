@@ -4,6 +4,7 @@ import HomePage from './homeSection/Home'
 import About from './aboutMe/About'
 import Experience from './experience/Experience'
 import Education from './education/Education'
+import Projects from './projects/Projects'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Experience />
       <Education />
+      <Projects />
       <h1>Hello World</h1>
     </main>
   )
