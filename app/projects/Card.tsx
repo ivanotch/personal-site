@@ -9,8 +9,8 @@ type CardProps = {
 
 const Card: React.FC<CardProps> = ({ image, title, description, tags }) => {
     return (
-            <div className="mt-[0.6rem] card card-compact w-96 bg-base-100 shadow-xl">
-                <figure><img src={image} alt="picture" className='w-[]'/></figure>
+            <div className="mt-[0.6rem] card w-[20rem] bg-base-100 shadow-xl">
+                <figure><img src={image} alt="picture" className='w-full h-[20rem] object-cover'/></figure>
                 <div className="card-body">
                     <h2 className="card-title">
                         {title}
