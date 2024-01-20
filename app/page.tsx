@@ -5,6 +5,7 @@ import About from './aboutMe/About'
 import Experience from './experience/Experience'
 import Education from './education/Education'
 import Projects from './projects/Projects'
+import ContactMe from './contact/ContactMe'
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <Experience />
       <Education />
       <Projects />
-      <h1>Hello World</h1>
+      <ContactMe />
     </main>
   )
 }

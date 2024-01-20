@@ -7,14 +7,14 @@ const Projects: React.FC = () => {
 
   const tags = ['All', 'Web Development', 'Programming Projects', 'Fun Games']
 
-  const [clickedTag, setClickedTag] = useState<null | string >("All")
+  const [clickedTag, setClickedTag] = useState<string >("All")
 
   const handleClick = (tag: string) => {
     setClickedTag(tag)
   }
 
   return (
-    <div className='h-[100vh] pl-[6rem] pr-[8rem]'>
+    <div className='pl-[6rem] pr-[8rem]'>
       <div className='flex flex-col items-center'>
         <div className='font-main text-[3rem] text-[#6F5643]'>Projects</div>
         <div className='flex justify-evenly text-center h-[2rem] rounded-full border-2 border-black w-[60%] border-solid'>
@@ -24,8 +24,7 @@ const Projects: React.FC = () => {
         </div>
       </div>
       <div>
-        <Cards tagName={clickedTag}/>
-        
+        <Cards tagName={clickedTag} />
       </div>
     </div>
   )
