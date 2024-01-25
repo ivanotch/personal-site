@@ -14,8 +14,8 @@ const Education = () => {
     }
 
   return (
-    <div className='h-[90vh]'>
-        <div className='flex w-[80%] mx-[auto] pt-[5rem] '>
+    <div className='mt-[18rem] md:mt-[0rem]'>
+        <div className='flex w-[80%] mx-[auto] pt-[5rem] mb-[15rem] '>
             <div className='w-[40%]'>
                 <div className='font-main text-[2.6rem] relative  text-[#6F5643]'>EDUCATION</div>
                 <div className='pt-[1rem]'>

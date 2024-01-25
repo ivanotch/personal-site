@@ -16,7 +16,12 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   padding: 1rem 9rem 0rem 9rem;
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  padding: 1rem 0rem 0rem 0rem;
 }

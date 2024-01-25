@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <div className='h-[95vh]'>
       <div className='w-[50%] m-[auto] pt-[12rem]'>
-        <div className='text-center text-5xl font-main pb-[4rem] text-[#6F5643]'><span>Work</span> Experience</div>
+        <div className='text-center text-3xl md:text-5xl font-main pb-[4rem] text-[#6F5643]'><span>Work</span> Experience</div>
         <div>
           {Jobs.map(job => (
             <div key={job.Heading}>
